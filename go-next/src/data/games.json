@@ -14,5 +14,9 @@
     {
         "title": "Rocket League",
         "platforms": [ "PC", "Nintendo Switch", "PlayStation 4", "PlayStation 5", "Xbox One" ]
+    },
+    {
+        "title": "TrackMania",
+        "platforms": [ "PC" ]
     }
 ]
