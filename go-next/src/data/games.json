@@ -18,5 +18,9 @@
     {
         "title": "TrackMania",
         "platforms": [ "PC" ]
+    },
+    {
+        "title": "Celeste",
+        "platforms": [ "PC, Xbox one, Nintendo Switch" ]    
     }
 ]
