@@ -6,12 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Core features
 
-Implement XState to control various visual states of the app.
-    Document the machine
-Implement components to display each given state:
-    Basic search page (Basically just logo and search bar for now)
-    Result list - displayed after a search is entered from the base page
-    Game info page - dispalyed from either base page or result list once one game is clicked
+* Implement XState to control various visual states of the app.
+*   Document the machine
+* Implement components to display each given state:
+*   Basic search page (Basically just logo and search bar for now)
+*   Result list - displayed after a search is entered from the base page
+*   Game info page - dispalyed from either base page or result list once one game is clicked
 
 ### Enhancements
 
