@@ -2,7 +2,7 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 import { TextField } from '@material-ui/core';
 import games from '../data/games.json';
 
-export function GoNextLayout() {
+export function LandingPageLayout() {
     const searchBar =
     (<Autocomplete
         id='game-search-bar'
@@ -11,12 +11,11 @@ export function GoNextLayout() {
         renderInput={(params) => <TextField {...params} label="Combo box" variant="outlined" />}
     />);
 
-
     // return the constructed layout for the App to show the user
     return (<>
         {searchBar}
         <p>
-            This is the <code>src/components/GoNextLayout.js</code> layout component.
+            This is the <code>src/components/LandingPageLayout.js</code> component.
         </p>
         <div className='welcome-text'>
             <p>Welcome to Go Next!</p>

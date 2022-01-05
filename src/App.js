@@ -1,10 +1,15 @@
 import './App.css';
-import { GoNextLayout } from './components/GoNextLayout';
+import { LandingPageLayout } from './components/LandingPageLayout';
+import {useRoutes} from 'hookrouter';
 
 function App() {
+  const routes = {
+    '/' :()=><LandingPageLayout/>,
+  };
+  const routeResults = useRoutes(routes);
   return (
     <div className="App">
-      <GoNextLayout />
+      {routeResults}
     </div>
   );
 }
