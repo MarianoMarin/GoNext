@@ -2,13 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Technologies used, with documentation links
+
+[Hookrouter](https://www.npmjs.com/package/hookrouter) is used to handle page navigation, examples [here](https://blog.bitsrc.io/hookrouter-a-modern-approach-to-react-routing-b6e36f7d49d9).
+
 ## GoNext project planning
 
 ### Core features
 
-* Implement XState to control various visual states of the app.
-*   Document the machine
-* Implement components to display each given state:
+* Implement page routing
+* Implement components for each page:
 *   Basic search page (Basically just logo and search bar for now)
 *   Result list - displayed after a search is entered from the base page
 *   Game info page - dispalyed from either base page or result list once one game is clicked
