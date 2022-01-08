@@ -22,5 +22,9 @@
     {
         "title": "Celeste",
         "platforms": [ "PC", "Xbox one", "Nintendo Switch" ]    
+    },
+    {
+        "title": "Getting Over It with Bennett Foddy",
+        "platforms": [ "PC", "Google Play" ]
     }
 ]
