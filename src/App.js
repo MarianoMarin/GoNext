@@ -1,10 +1,10 @@
 import './App.css';
-import { LandingPageLayout } from './components/LandingPageLayout';
+import { LandingPageLayout } from './components/LandingPageLayout/LandingPageLayout';
 import {useRoutes} from 'hookrouter';
 
 function App() {
   const routes = {
-    '/' :()=><LandingPageLayout/>,
+    '/' :()=><LandingPageLayout test-id='landing-page-component'/>,
   };
   const routeResults = useRoutes(routes);
   return (
