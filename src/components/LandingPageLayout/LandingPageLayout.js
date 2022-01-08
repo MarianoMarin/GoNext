@@ -1,6 +1,6 @@
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { TextField } from '@material-ui/core';
-import games from '../data/games.json';
+import games from '../../data/games.json';
 
 export function LandingPageLayout() {
     const searchBar =
