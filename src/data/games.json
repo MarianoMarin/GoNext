@@ -26,5 +26,9 @@
     {
         "title": "Getting Over It with Bennett Foddy",
         "platforms": [ "PC", "Google Play" ]
+    },
+    {
+        "title": "Pokemon Brilliant Diamond/Shining Pearl",
+        "platforms": ["Nintendo Switch"]
     }
 ]
