@@ -1,34 +1,42 @@
 [
     {
+        "id": "zelda-botw",
         "title": "The Legend of Zelda: Breath of the Wild",
         "platforms": [ "WiiU", "Nintendo Switch" ]
     },
     {
+        "id": "ac-odyssey",
         "title": "Assassin's Creed: Odyssey",
         "platforms": [ "PC", "Xbox One", "PlayStation 4", "Nintendo Switch" ]
     },
     {
+        "id": "horizon-zero-dawn",
         "title": "Horizon Zero Dawn",
         "platforms": [ "PC", "PlayStation 4" ]
     },
     {
+        "id": "rocket-league",
         "title": "Rocket League",
         "platforms": [ "PC", "Nintendo Switch", "PlayStation 4", "PlayStation 5", "Xbox One" ]
     },
     {
+        "id": "trackmania-2020",
         "title": "TrackMania",
         "platforms": [ "PC" ]
     },
     {
+        "id": "celeste",
         "title": "Celeste",
         "platforms": [ "PC", "Xbox one", "Nintendo Switch" ]    
     },
     {
+        "id": "getting-over-it",
         "title": "Getting Over It with Bennett Foddy",
         "platforms": [ "PC", "Google Play" ]
     },
     {
+        "id": "pokemon-bdsp",
         "title": "Pokemon Brilliant Diamond/Shining Pearl",
-        "platforms": ["Nintendo Switch"]
+        "platforms": [ "Nintendo Switch" ]
     }
 ]
