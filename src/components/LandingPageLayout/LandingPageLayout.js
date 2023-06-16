@@ -19,26 +19,25 @@ function selectGameFromList(event, gameValue) {
  */
 export function LandingPageLayout() {
 
-    // Construct the autocomplete search bar
-    const searchBar =
-    (<Autocomplete
-        id='game-search-bar'
-        options={games}
-        getOptionLabel={(game) => game.title}
-        renderInput={(params) => <TextField {...params} label="Combo box" variant="outlined" />}
-        onChange={selectGameFromList}
-    />);
+    // Construct the title search bar
+    const titleSearchBar =
+    (<div id='search-bar-wrapper'>
+        <Autocomplete
+            id='game-search-bar'
+            options={games}
+            getOptionLabel={(game) => game.title}
+            renderInput={(params) => <TextField {...params} label="Combo box" variant="outlined" />}
+            onChange={selectGameFromList}
+        />
+    </div>);
 
     // return the constructed layout for the App to show the user
     return (<div className='landing-page-wrapper'>
-        {searchBar}
-        <p>
-            This is the <code>src/components/LandingPageLayout.js</code> component.
-        </p>
         <div className='welcome-text'>
             <p>Welcome to Go Next!</p>
             <p>We're still booting up, but our aim is to be</p>
             <p>Your go-to place to find your next favorite game!</p>
         </div>
+        {titleSearchBar}
     </div>);
 }
