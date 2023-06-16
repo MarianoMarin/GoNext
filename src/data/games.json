@@ -2,41 +2,49 @@
     {
         "id": "zelda-botw",
         "title": "The Legend of Zelda: Breath of the Wild",
-        "platforms": [ "WiiU", "Nintendo Switch" ]
+        "platforms": [ "WiiU", "Nintendo Switch" ],
+        "categories": [ "Single Player", "Offline", "Adventure", "Open World" ]
     },
     {
         "id": "ac-odyssey",
         "title": "Assassin's Creed: Odyssey",
-        "platforms": [ "PC", "Xbox One", "PlayStation 4", "Nintendo Switch" ]
+        "platforms": [ "PC", "Xbox One", "PlayStation 4", "Nintendo Switch" ],
+        "categories": [ "Offline", "Single Player", "Adventure", "RPG" ]
     },
     {
         "id": "horizon-zero-dawn",
         "title": "Horizon Zero Dawn",
-        "platforms": [ "PC", "PlayStation 4" ]
+        "platforms": [ "PC", "PlayStation 4" ],
+        "categories": [ "Offline", "Single Player", "Adventure", "RPG" ]
     },
     {
         "id": "rocket-league",
         "title": "Rocket League",
-        "platforms": [ "PC", "Nintendo Switch", "PlayStation 4", "PlayStation 5", "Xbox One" ]
+        "platforms": [ "PC", "Nintendo Switch", "PlayStation 4", "PlayStation 5", "Xbox One" ],
+        "categories": [ "Online", "Multiplayer", "Driving", "Sports", "Competitive" ]
     },
     {
         "id": "trackmania-2020",
         "title": "TrackMania",
-        "platforms": [ "PC" ]
+        "platforms": [ "PC", "PlayStation 4", "PlayStation 5", "Xbox One" ],
+        "categories": [ "Online", "Driving", "Racing", "Multiplayer", "Competitive" ]
     },
     {
         "id": "celeste",
         "title": "Celeste",
-        "platforms": [ "PC", "Xbox one", "Nintendo Switch" ]    
+        "platforms": [ "PC", "Xbox One", "Nintendo Switch" ],
+        "categories": [ "Platformer", "Single Player", "2D", "Offline" ]    
     },
     {
         "id": "getting-over-it",
         "title": "Getting Over It with Bennett Foddy",
-        "platforms": [ "PC", "Google Play" ]
+        "platforms": [ "PC", "Google Play" ],
+        "categories": [ "Casual", "Single Player", "Offline", "2D" ]
     },
     {
         "id": "pokemon-bdsp",
         "title": "Pokemon Brilliant Diamond/Shining Pearl",
-        "platforms": [ "Nintendo Switch" ]
+        "platforms": [ "Nintendo Switch" ],
+        "categories": [ "Single Player", "Offline", "RPG", "Adventure" ]
     }
 ]
